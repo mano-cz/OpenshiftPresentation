@@ -268,13 +268,18 @@ a:focus {
 }
 
 #title h1 {
-    font-size: 180px;
+    font-size: 100px;
 
     -webkit-transform: translateZ(50px);
     -moz-transform:    translateZ(50px);
     -ms-transform:     translateZ(50px);
     -o-transform:      translateZ(50px);
     transform:         translateZ(50px);
+    margin-bottom: 100px;
+}
+
+#title h2 {
+    margin-bottom: 10px;
 }
 
 #title .footnote {
